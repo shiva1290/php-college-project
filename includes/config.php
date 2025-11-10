@@ -1,18 +1,18 @@
 <?php
-// Database configuration
+
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
-define('DB_PASS', 'password'); // Set your MySQL password here
+define('DB_PASS', 'Shiva'); 
 define('DB_NAME', 'greyshot');
 
-// Error reporting
+
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-// Session configuration
+
 session_start();
 
-// Functions for database connection
+
 function getDB() {
     try {
         $db = new PDO(
